@@ -57,11 +57,11 @@ if ( is_admin() ) {
 
 }
 
-// require plugin_dir_path( __FILE__ ) . 'includes/plugin_update_check.php';
+require plugin_dir_path( __FILE__ ) . 'includes/plugin_update_check.php';
 
-// $MyUpdateChecker = new PluginUpdateChecker_2_0 (
-//     'https://kernl.us/api/v1/updates/582262fe747e4d7956839e64/',
-//     __FILE__,
-//     'ssm-clients',
-//     1
-// );
+$MyUpdateChecker = new PluginUpdateChecker_2_0 (
+    'https://kernl.us/api/v1/updates/58226b838045ed04f5407874/',
+    __FILE__,
+    'ssm-clients',
+    1
+);
