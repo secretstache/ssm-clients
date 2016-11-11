@@ -84,22 +84,22 @@ class SSM_Clients_Registrations {
 	 */
 	protected function register_taxonomy_category() {
 		$labels = array(
-			'name'                       => __( 'Client Categories', 'ssm-clients' ),
-			'singular_name'              => __( 'Client Category', 'ssm-clients' ),
+			'name'                       => __( 'Categories', 'ssm-clients' ),
+			'singular_name'              => __( 'Category', 'ssm-clients' ),
 			'menu_name'                  => __( 'Categories', 'ssm-clients' ),
-			'edit_item'                  => __( 'Edit Client Category', 'ssm-clients' ),
-			'update_item'                => __( 'Update Client Category', 'ssm-clients' ),
-			'add_new_item'               => __( 'Add New Client Category', 'ssm-clients' ),
-			'new_item_name'              => __( 'New Client Category Name', 'ssm-clients' ),
-			'parent_item'                => __( 'Parent Client Category', 'ssm-clients' ),
-			'parent_item_colon'          => __( 'Parent Client Category:', 'ssm-clients' ),
-			'all_items'                  => __( 'All Client Categories', 'ssm-clients' ),
-			'search_items'               => __( 'Search Client Categories', 'ssm-clients' ),
-			'popular_items'              => __( 'Popular Client Categories', 'ssm-clients' ),
-			'separate_items_with_commas' => __( 'Separate client categories with commas', 'ssm-clients' ),
-			'add_or_remove_items'        => __( 'Add or remove client categories', 'ssm-clients' ),
-			'choose_from_most_used'      => __( 'Choose from the most used client categories', 'ssm-clients' ),
-			'not_found'                  => __( 'No client categories found.', 'ssm-clients' ),
+			'edit_item'                  => __( 'Edit Category', 'ssm-clients' ),
+			'update_item'                => __( 'Update Category', 'ssm-clients' ),
+			'add_new_item'               => __( 'Add New Category', 'ssm-clients' ),
+			'new_item_name'              => __( 'New Category Name', 'ssm-clients' ),
+			'parent_item'                => __( 'Parent Category', 'ssm-clients' ),
+			'parent_item_colon'          => __( 'Parent Category:', 'ssm-clients' ),
+			'all_items'                  => __( 'All Categories', 'ssm-clients' ),
+			'search_items'               => __( 'Search Categories', 'ssm-clients' ),
+			'popular_items'              => __( 'Popular Categories', 'ssm-clients' ),
+			'separate_items_with_commas' => __( 'Separate categories with commas', 'ssm-clients' ),
+			'add_or_remove_items'        => __( 'Add or remove categories', 'ssm-clients' ),
+			'choose_from_most_used'      => __( 'Choose from the most used categories', 'ssm-clients' ),
+			'not_found'                  => __( 'No categories found.', 'ssm-clients' ),
 		);
 
 		$args = array(
